@@ -26,7 +26,7 @@ func main() {
 	}
 
 	if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
-		log.Fatal("listen...", err)
+		log.Fatal("listen....", err)
 	}
 }
 
